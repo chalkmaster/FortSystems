@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="FortSystems.Core" namespace="FortSystems.Core.DomainObjects.Security">
+  
+  <class name="User">
+    
+    <cache usage="nonstrict-read-write" region="LongTerm" />
+
+    <id name="Id" type="int" unsaved-value="0">
+      <column name="Id" sql-type="integer" not-null="true"/>
+      <generator class="identity" />
+    </id>
+  
+    <property name="ExternalCode" lazy="true">
+      <column name="ExternalCode" sql-type="varchar(150)" length="150" not-null="false" />
+    </property>
+
+    <property name="Deleted">
+      <column name="Deleted" sql-type="bit" not-null="true" />
+    </property>
+
+    <property name="Login">
+      <column name="Login" sql-type="varchar(20)" length="30" not-null="true" />
+    </property>
+
+    <property name="Password">
+      <column name="Password" sql-type="varchar(20)" length="20" not-null="true" />
+    </property>
+
+    <property name="Active">
+      <column name="Active" sql-type="bit" not-null="true" />
+    </property>
+    
+  </class>
+  
+</hibernate-mapping>

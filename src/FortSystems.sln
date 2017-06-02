@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortSystems.Web", "FortSystems.Web\FortSystems.Web.csproj", "{0B85D59D-B023-4D1F-BC98-15CA2AFCA6DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A03BAA2-58CE-491E-AD42-07811AD0670D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortSystems.Core.Test", "Tests\FortSystems.Core.Test\FortSystems.Core.Test.csproj", "{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57069B97-C9C0-4ED2-A6C7-F4B96A28CAE1}"
+	ProjectSection(SolutionItems) = preProject
+		FortSystems.vsmdi = FortSystems.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortSystems.Core", "FortSystems.Core\FortSystems.Core.csproj", "{82CE5A28-C057-44E7-A0DC-7DB5322E3DF4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chalk.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FortSystems.Web\\FortSystems.Web.csproj
+		SccProjectName1 = FortSystems.Web
+		SccLocalPath1 = FortSystems.Web
+		SccProjectUniqueName2 = Tests\\FortSystems.Core.Test\\FortSystems.Core.Test.csproj
+		SccProjectTopLevelParentUniqueName2 = FortSystems.sln
+		SccProjectName2 = Tests/FortSystems.Core.Test
+		SccLocalPath2 = Tests\\FortSystems.Core.Test
+		SccProjectUniqueName3 = FortSystems.Core\\FortSystems.Core.csproj
+		SccProjectName3 = FortSystems.Core
+		SccLocalPath3 = FortSystems.Core
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FortSystems.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B85D59D-B023-4D1F-BC98-15CA2AFCA6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B85D59D-B023-4D1F-BC98-15CA2AFCA6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B85D59D-B023-4D1F-BC98-15CA2AFCA6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B85D59D-B023-4D1F-BC98-15CA2AFCA6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CE5A28-C057-44E7-A0DC-7DB5322E3DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CE5A28-C057-44E7-A0DC-7DB5322E3DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CE5A28-C057-44E7-A0DC-7DB5322E3DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CE5A28-C057-44E7-A0DC-7DB5322E3DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57D9FCD3-BF05-47DD-A3C2-82C97B8725C8} = {7A03BAA2-58CE-491E-AD42-07811AD0670D}
+		{57069B97-C9C0-4ED2-A6C7-F4B96A28CAE1} = {7A03BAA2-58CE-491E-AD42-07811AD0670D}
+	EndGlobalSection
+EndGlobal
